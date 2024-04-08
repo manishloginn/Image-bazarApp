@@ -1,0 +1,64 @@
+* {
+    margin: 0;padding: 0;box-sizing: border-box;
+
+}
+.pincode-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.pincode-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pincode-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.below {
+    margin-top: 20px;
+}
+
+.message {
+    color: red;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.tabledata {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabledata th,
+.tabledata td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.tabledata th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table-containerr {
+    padding: 20px;
+    width: 100%;
+    .tabledata {
+        width: 80%;
+        margin: auto;
+    }
+}
